@@ -217,6 +217,7 @@
     "newPassword": "Nytt passord",
     "noFiltersSet": "Ingen filtre satt",
     "noLabel": "<Ingen {{label}}>",
+    "noNewChanges": "Ingen nye endringer å lagre.",
     "noOptions": "Ingen alternativer",
     "noResults": "Ingen {{label}} funnet. Enten finnes det ingen {{label}} enda eller ingen matcher filterne du har spesifisert ovenfor.",
     "noValue": "Ingen verdi",

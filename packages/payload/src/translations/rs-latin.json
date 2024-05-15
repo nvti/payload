@@ -217,6 +217,7 @@
     "newPassword": "Nova lozinka",
     "noFiltersSet": "Nema postavljenih filtera",
     "noLabel": "<Nema {{label}}>",
+    "noNewChanges": "Nema novih promena za čuvanje.",
     "noOptions": "Nema opcija",
     "noResults": "Nema pronađenih {{label}}. Moguće da {{label}} još uvek ne postoji ili nema rezultata u skladu sa postavljenim filterima.",
     "noValue": "Bez vrednosti",

@@ -786,6 +786,9 @@
         "noLabel": {
           "type": "string"
         },
+        "noNewChanges": {
+          "type": "string"
+        },
         "noOptions": {
           "type": "string"
         },

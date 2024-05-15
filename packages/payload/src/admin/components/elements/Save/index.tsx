@@ -1,10 +1,12 @@
 import React, { useRef } from 'react'
 import { useTranslation } from 'react-i18next'
+import { toast } from 'react-toastify'
 
 import useHotkey from '../../../hooks/useHotkey'
-import { useForm } from '../../forms/Form/context'
+import { useForm, useFormModified } from '../../forms/Form/context'
 import FormSubmit from '../../forms/Submit'
 import { useEditDepth } from '../../utilities/EditDepth'
+import { useOperation } from '../../utilities/OperationProvider'
 import RenderCustomComponent from '../../utilities/RenderCustomComponent'
 
 export type CustomSaveButtonProps = React.ComponentType<
@@ -20,8 +22,18 @@ type DefaultSaveButtonProps = {
 const DefaultSaveButton: React.FC<DefaultSaveButtonProps> = ({ label, save }) => {
   const ref = useRef<HTMLButtonElement>(null)
   const editDepth = useEditDepth()
+  const operation = useOperation()
+  const modified = useFormModified()
+
+  const { t } = useTranslation()
+
+  const forceDisable = operation === 'update' && !modified
 
   useHotkey({ cmdCtrlKey: true, editDepth, keyCodes: ['s'] }, (e) => {
+    if (forceDisable) {
+      return toast.info(t('general:noNewChanges'))
+    }
+
     e.preventDefault()
     e.stopPropagation()
     if (ref?.current) {
@@ -30,7 +42,7 @@ const DefaultSaveButton: React.FC<DefaultSaveButtonProps> = ({ label, save }) =>
   })
 
   return (
-    <FormSubmit buttonId="action-save" onClick={save} ref={ref} type="button" size="small">
+    <FormSubmit buttonId="action-save" onClick={save} ref={ref} size="small" type="button">
       {label}
     </FormSubmit>
   )
