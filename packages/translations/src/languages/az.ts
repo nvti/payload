@@ -233,6 +233,7 @@ export const az: Language = {
       newPassword: 'Yeni şifrə',
       noFiltersSet: 'Filter təyin edilməyib',
       noLabel: '<Heç bir {{label}}>',
+      noNewChanges: 'Yadda saxlamaq üçün yeni dəyişikliklər yoxdur.',
       noOptions: 'Heç bir seçim yoxdur',
       noResults:
         'Heç bir {{label}} tapılmadı. Ya hələ {{label}} yoxdur, ya da yuxarıda göstərdiyiniz filtrlərə uyğun gəlmir.',

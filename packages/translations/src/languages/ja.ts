@@ -233,6 +233,7 @@ export const ja: Language = {
       newPassword: '新しいパスワード',
       noFiltersSet: '絞り込みが未設定です。',
       noLabel: '<No {{label}}>',
+      noNewChanges: '保存する新しい変更はありません',
       noOptions: '選択肢なし',
       noResults:
         '{{label}} データが見つかりませんでした。データが存在しない、または、絞り込みに一致するものがありません。',

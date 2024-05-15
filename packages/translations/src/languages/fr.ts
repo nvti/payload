@@ -239,6 +239,7 @@ export const fr: Language = {
       newPassword: 'Nouveau mot de passe',
       noFiltersSet: 'Aucun filtre défini',
       noLabel: '<Pas de {{label}}>',
+      noNewChanges: 'Aucun nouveau changement à enregistrer.',
       noOptions: 'Aucune option',
       noResults:
         "Aucun(e) {{label}} trouvé(e). Soit aucun(e) {{label}} n'existe encore, soit aucun(e) ne correspond aux filtres que vous avez spécifiés ci-dessus",

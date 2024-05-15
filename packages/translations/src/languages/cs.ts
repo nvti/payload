@@ -232,6 +232,7 @@ export const cs: Language = {
       newPassword: 'Nové heslo',
       noFiltersSet: 'Nenastaveny žádné filtry',
       noLabel: '<Žádný {{label}}>',
+      noNewChanges: 'Žádné nové změny k uložení.',
       noOptions: 'Žádné možnosti',
       noResults:
         'Nebyly nalezeny žádné {{label}}. Buď ještě neexistují žádné {{label}}, nebo žádné nesplňují filtry, které jste zadali výše.',

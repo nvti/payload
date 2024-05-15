@@ -234,6 +234,7 @@ export const uk: Language = {
       newPassword: 'Новий пароль',
       noFiltersSet: 'Відсусті фільтри',
       noLabel: '<без {{label}}>',
+      noNewChanges: 'Немає нових змін для збереження',
       noOptions: 'Немає варіантів',
       noResults:
         'Жодного {{label}} не знайдено. Або {{label}} ще не існує, або жодна з них не відповідає фільтрам, що ви задали више.',

@@ -235,6 +235,7 @@ export const my: Language = {
       newPassword: 'စကားဝှက် အသစ်',
       noFiltersSet: 'စစ်ထုတ်မှုများ မသတ်မှတ်ထားပါ။',
       noLabel: '<မရှိ {{label}}>',
+      noNewChanges: 'Tiada perubahan baru untuk disimpan.',
       noOptions: 'ရွေးချယ်မှုမရှိပါ',
       noResults:
         '{{label}} မတွေ့ပါ။ {{label}} မရှိသေးသည်ဖြစ်စေ အထက်တွင်ဖော်ပြထားသော စစ်ထုတ်မှုများနှင့် ကိုက်ညီမှုမရှိပါ။',

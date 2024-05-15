@@ -234,7 +234,7 @@ export const nl: Language = {
       moveUp: 'Verplaats naar boven',
       newPassword: 'Nieuw wachtwoord',
       noFiltersSet: 'Geen filters ingesteld',
-      noLabel: 'Geen "{{label}}"',
+      noNewChanges: 'Geen nieuwe wijzigingen om op te slaan.',
       noOptions: 'Geen opties',
       noResults:
         'Geen {{label}} gevonden. Of er bestaat nog geen {{label}}, of niets komt overeen met de hierboven gespecifieerde filters.',

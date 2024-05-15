@@ -1,6 +1,7 @@
 'use client'
 
 import React, { useCallback, useRef } from 'react'
+import { toast } from 'react-toastify'
 
 import { useForm, useFormModified } from '../../forms/Form/context.js'
 import { FormSubmit } from '../../forms/Submit/index.js'
@@ -31,8 +32,9 @@ const DefaultSaveDraftButton: React.FC = () => {
   const forceDisable = operation === 'update' && !modified
 
   const saveDraft = useCallback(async () => {
-    if (forceDisable) return
-
+    if (forceDisable) {
+      return toast.info(t('general:noNewChanges'))
+    }
     const search = `?locale=${locale}&depth=0&fallback-locale=null&draft=true`
     let action
     let method = 'POST'

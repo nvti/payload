@@ -236,6 +236,7 @@ export const ro: Language = {
       newPassword: 'Parolă nouă',
       noFiltersSet: 'Nici un filtru setat',
       noLabel: '<Nici un {{label}}>',
+      noNewChanges: 'Niciun schimbare nouă de salvat.',
       noOptions: 'Fără opțiuni',
       noResults:
         'Nici un {{label}} găsit. Fie nu există încă niciun {{label}}, fie niciunul nu se potrivește cu filtrele pe care le-ați specificat mai sus..',

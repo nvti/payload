@@ -232,6 +232,7 @@ export const rs: Language = {
       newPassword: 'Нова лозинка',
       noFiltersSet: 'Нема постављених филтера',
       noLabel: '<Нема {{label}}>',
+      noNewChanges: 'Nema novih promjena za spremanje.',
       noOptions: 'Нема опција',
       noResults:
         'Нема пронађених {{label}}. Могуће да {{label}} још увек не постоји или нема резултата у складу са постављеним филтерима.',

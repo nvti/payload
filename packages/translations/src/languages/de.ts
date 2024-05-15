@@ -235,6 +235,7 @@ export const de: Language = {
       newPassword: 'Neues Passwort',
       noFiltersSet: 'Keine Filter gesetzt',
       noLabel: '<Kein {{label}}>',
+      noNewChanges: 'Keine neuen Änderungen zu speichern.',
       noOptions: 'Keine Optionen',
       noResults:
         'Keine {{label}} gefunden. Entweder es existieren keine {{label}} oder es gibt keine Übereinstimmung zu den von dir verwendeten Filtern.',

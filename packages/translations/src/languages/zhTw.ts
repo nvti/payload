@@ -224,6 +224,7 @@ export const zhTw: Language = {
       newPassword: '新密碼',
       noFiltersSet: '沒有設定過濾器',
       noLabel: '<沒有{{label}}>',
+      noNewChanges: '沒有新的變更可以儲存',
       noOptions: '沒有選項',
       noResults: '沒有找到{{label}}。{{label}}並不存在或沒有符合您上面所指定的過濾器。',
       noValue: '沒有數值',

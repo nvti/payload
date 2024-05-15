@@ -228,6 +228,7 @@ export const th: Language = {
       newPassword: 'รหัสผ่านใหม่',
       noFiltersSet: 'ไม่มีการกรอง',
       noLabel: '<ไม่มี {{label}}>',
+      noNewChanges: 'ไม่มีการเปลี่ยนแปลงใหม่ที่จะบันทึก',
       noOptions: 'ไม่มีตัวเลือก',
       noResults:
         'ไม่พบ {{label}} เนื่องจากยังไม่มี {{label}} หรือไม่มี {{label}} ใดตรงกับการกรองด้านบน',

@@ -231,6 +231,7 @@ export const bg: Language = {
       newPassword: 'Нова парола',
       noFiltersSet: 'Няма зададени филтри',
       noLabel: '<Няма {{label}}>',
+      noNewChanges: 'Няма нови промени за запазване.',
       noOptions: 'Няма опции',
       noResults:
         '{{label}} не е открит. {{label}} не съществува или никой не отговаря на зададените филтри.',

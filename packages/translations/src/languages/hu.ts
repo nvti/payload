@@ -235,6 +235,7 @@ export const hu: Language = {
       newPassword: 'Új jelszó',
       noFiltersSet: 'Nincs beállítva szűrő',
       noLabel: '<No {{label}}>',
+      noNewChanges: 'Nincsenek új változtatások mentésre.',
       noOptions: 'Nincs lehetőség',
       noResults:
         'Nem találtunk {{label}}. Vagy még nem létezik {{label}}, vagy egyik sem felel meg a fent megadott szűrőknek.',

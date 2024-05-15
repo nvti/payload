@@ -231,6 +231,7 @@ export const ar: Language = {
       newPassword: 'كلمة مرور جديدة',
       noFiltersSet: 'لم يتم تعيين أي عوامل تصفية',
       noLabel: '<لا {{label}}>',
+      noNewChanges: 'لا توجد تغييرات جديدة لحفظها',
       noOptions: 'لا خيارات',
       noResults:
         'لا يوجد {{label}}. إما أن لا {{label}} موجودة حتى الآن أو لا تتطابق مع عوامل التصفية التي حددتها أعلاه.',

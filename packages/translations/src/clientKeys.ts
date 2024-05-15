@@ -181,6 +181,7 @@ export const clientTranslationKeys = createClientTranslationKeys([
   'general:noFiltersSet',
   'general:noLabel',
   'general:none',
+  'general:noNewChanges',
   'general:noOptions',
   'general:noResults',
   'general:notFound',

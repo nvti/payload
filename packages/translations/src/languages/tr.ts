@@ -235,6 +235,7 @@ export const tr: Language = {
       newPassword: 'Yeni parola',
       noFiltersSet: 'Tanımlı filtre yok',
       noLabel: '<{{label}} yok>',
+      noNewChanges: 'Kaydedilecek yeni değişiklikler yok.',
       noOptions: 'Seçenek yok',
       noResults:
         '{{label}} bulunamadı. Henüz bir {{label}} eklenmemiş olabilir veya seçtiğiniz filtrelerle eşleşen bir sonuç bulunamamış olabilir.',

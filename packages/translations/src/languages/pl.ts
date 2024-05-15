@@ -235,6 +235,7 @@ export const pl: Language = {
       newPassword: 'Nowe hasło',
       noFiltersSet: 'Brak ustawionych filtrów',
       noLabel: '<Bez {{label}}>',
+      noNewChanges: 'Brak nowych zmian do zapisania.',
       noOptions: 'Brak opcji',
       noResults:
         'Nie znaleziono {{label}}. Być może {{label}} jeszcze nie istnieje, albo żaden nie pasuje do filtrów określonych powyżej.',

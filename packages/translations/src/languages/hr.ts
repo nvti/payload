@@ -233,6 +233,7 @@ export const hr: Language = {
       newPassword: 'Nova lozinka',
       noFiltersSet: 'Nema postavljenih filtera',
       noLabel: '<Nema {{label}}>',
+      noNewChanges: 'Nema novih promjena za spremanje.',
       noOptions: 'Nema opcija',
       noResults:
         'Nema pronađenih {{label}}. Ili {{label}} još uvijek ne postoji ili nijedan od odgovara postavljenim filterima.',

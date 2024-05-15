@@ -1,6 +1,7 @@
 'use client'
 
 import React, { useRef } from 'react'
+import { toast } from 'react-toastify'
 
 import { useForm, useFormModified } from '../../forms/Form/context.js'
 import { FormSubmit } from '../../forms/Submit/index.js'
@@ -8,7 +9,6 @@ import { useHotkey } from '../../hooks/useHotkey.js'
 import { useEditDepth } from '../../providers/EditDepth/index.js'
 import { useOperation } from '../../providers/Operation/index.js'
 import { useTranslation } from '../../providers/Translation/index.js'
-
 export const DefaultSaveButton: React.FC<{ label?: string }> = ({ label: labelProp }) => {
   const { t } = useTranslation()
   const { submit } = useForm()
@@ -21,7 +21,9 @@ export const DefaultSaveButton: React.FC<{ label?: string }> = ({ label: labelPr
   const forceDisable = operation === 'update' && !modified
 
   useHotkey({ cmdCtrlKey: true, editDepth, keyCodes: ['s'] }, (e) => {
-    if (forceDisable) return
+    if (forceDisable) {
+      return toast.info(t('general:noNewChanges'))
+    }
 
     e.preventDefault()
     e.stopPropagation()

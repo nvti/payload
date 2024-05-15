@@ -233,6 +233,7 @@ export const sv: Language = {
       newPassword: 'Nytt Lösenord',
       noFiltersSet: 'Inga filter inställda',
       noLabel: '<Ingen {{label}}>',
+      noNewChanges: 'Inga nya ändringar att spara.',
       noOptions: 'Inga alternativ',
       noResults:
         'Inga {{label}} hittades. Antingen finns inga {{label}} ännu eller matchar ingen filtren du har angett ovan.',

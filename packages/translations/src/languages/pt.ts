@@ -234,6 +234,7 @@ export const pt: Language = {
       newPassword: 'Nova Senha',
       noFiltersSet: 'Nenhum filtro definido',
       noLabel: '<Nenhum(a) {{label}}>',
+      noNewChanges: 'Sem novas alterações para salvar.',
       noOptions: 'Sem opções',
       noResults:
         'Nenhum {{label}} encontrado. Ou nenhum(a) {{label}} existe ainda, ou nenhum(a) corresponde aos filtros que você especificou acima.',

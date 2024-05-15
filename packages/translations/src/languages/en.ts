@@ -239,6 +239,7 @@ export const enTranslations = {
     newPassword: 'New Password',
     noFiltersSet: 'No filters set',
     noLabel: '<No {{label}}>',
+    noNewChanges: 'No new changes to save',
     noOptions: 'No options',
     noResults:
       "No {{label}} found. Either no {{label}} exist yet or none match the filters you've specified above.",

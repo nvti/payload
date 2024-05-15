@@ -233,6 +233,7 @@ export const fa: Language = {
       newPassword: 'گذرواژه تازه',
       noFiltersSet: 'هیچ علامت‌گذاری تنظیم نشده',
       noLabel: '<No {{label}}>',
+      noNewChanges: 'هیچ تغییر جدیدی برای ذخیره وجود ندارد',
       noOptions: 'بدون گزینه',
       noResults:
         'هیچ {{label}} یافت نشد. {{label}} یا هنوز وجود ندارد یا هیچ کدام با علامت‌گذاری‌هایی که در بالا مشخص کرده اید مطابقت ندارد.',
